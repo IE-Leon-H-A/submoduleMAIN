@@ -1,0 +1,3 @@
+[submodule "submoduleSUB"]
+	path = submoduleSUB
+	url = git@github.com:IE-Leon-H-A/submoduleSUB.git
