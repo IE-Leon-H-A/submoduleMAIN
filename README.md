@@ -30,16 +30,23 @@ Option 2 (if forget '--recurse-submodules'):
 Option 1:
 
 ``cd <submodule>``
+
 ``git pull``
+
 ``cd ..``
+
 ``git add -A``
+
 ``git commit``
+
 ``git push``
 
 Option 2:
 
 ``cd <submodule>``
+
 ``git fetch``
+
 ``git merge``
 
 Option 4:
@@ -53,6 +60,7 @@ Option 4:
 ## Aliases for submodules
 
 alias gds='git diff --submodule'
+
 alias gss='git submodule summary'
 
 ## Removing submodule from mainProject
