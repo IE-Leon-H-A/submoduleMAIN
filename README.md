@@ -7,6 +7,10 @@ If code changes are done entirely on machineB (editing submodule), machineA (mai
 ``git submodule foreach git pull``. When submodule changes are ready for staging (on machineA), run
 ``git submodule summary`` and copy-paste changes in submodule as commit message in mainProject history.
 
+If submodule code is edited on machineA as well (mainProject), code has to
+be pushed from submodule (normal commit message) and from mainProject
+(commit message = git submodule summary)
+
 
 ## Cloning repo with submodules
 Option 1:
